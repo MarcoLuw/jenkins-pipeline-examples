@@ -59,6 +59,7 @@ pipeline {
         checkout scm
         sh "echo 'Run Acceptance Tests'"
         sh "sleep 200"
+        sh "echo 'If you see this message, it means sleep is done'"
       }
     }
 
