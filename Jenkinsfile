@@ -58,6 +58,7 @@ pipeline {
         deleteDir()
         checkout scm
         sh "echo 'Run Acceptance Tests'"
+        sh "sleep 200"
       }
     }
 
